@@ -1,0 +1,7 @@
+title: paikblog
+email: email@example.com
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed
