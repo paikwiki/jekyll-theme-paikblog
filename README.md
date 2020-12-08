@@ -24,6 +24,48 @@ Or install it yourself as:
 
     $ gem install jekyll-theme-paikblog
 
+## Usage
+
+### Configuration
+
+ADD below data on `_config.yml`.
+
+```yml
+title: SITE_TITLE
+description: SITE_DESCRIPTION
+author:
+  name: AUTHOR_NAME
+  email: EMAIL@EXAMPLE.COM
+copyright_year: YEAR
+```
+
+### Main page
+
+Create `index.html` with below:
+
+```html
+---
+layout: default
+---
+
+{% include post-list.html %}
+
+```
+
+### Tags page
+
+Create `tags.html` with below:
+
+```html
+---
+layout: default
+title: tags
+permalink: /tags
+---
+
+{% include tags.html %}
+```
+
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at [paikwiki](mailto:paikwiki@gmail.com). This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
