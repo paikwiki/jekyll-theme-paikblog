@@ -1,9 +1,11 @@
-title: paikblog
-email: email@example.com
-
-# Sass/SCSS
+title: SITE_TITLE
+description: SITE_DESCRIPTION
+author:
+  name: AUTHOR_NAME
+  email: EMAIL@EXAMPLE.COM
+  twitter: TWITTER_ID
+copyright_year: YEAR
 sass:
-  sass_dir: _sass
   style: compressed
 plugins:
   - jekyll-sitemap
