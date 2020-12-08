@@ -4,3 +4,6 @@
 .sass-cache
 _site
 Gemfile.lock
+
+# dummy files
+_posts
