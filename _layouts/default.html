@@ -3,20 +3,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ site.title }}</title>
+  {% seo %}
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 </head>
 <body>
   <article class="global-wrapper">
     <header class="site-header">
-      <a href="{{ '/' }}" class="hard-anchor" title="main-page"><span>{{ site.title }}</span></a>
+      <a href="{{ '/' | relative_url }}" class="hard-anchor" title="main-page"><span>{{ site.title }}</span></a>
     </header>
     <section class="site-content">
       {{ content }}
     </section>
     <footer>
       <p class="copyright">
-        &copy; copy-text
+        &copy; {{ site.copyright_year }}.
+        <a href="mailto://{{ site.author.email }}" class="hard-anchor" title="mailto">{{ site.author.name }}</a> ALL RIGHTS RESERVED.
+        Follow via <a href="/feed.xml" title="rss">rss</a>
       </p>
     </footer>
   </article>
