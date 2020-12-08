@@ -1,0 +1,37 @@
+/* Utility class */
+.hidden-text {
+  display: block;
+  margin-left: -9999999px;
+  width: 0;
+  height: 0;
+  opacity: 0;
+}
+
+/* Custom elements with class */
+.hard-anchor,
+.hard-anchor:visited {
+  color: $linkColor;
+  text-decoration: none;
+}
+.meta {
+  margin-bottom: 1.75rem;
+  font-size: 0.9rem;
+  font-style: oblique;
+  color: $metaColor;
+}
+
+/* - Aladin TTB */
+.ttb-review {
+  margin-bottom: 2rem;
+  text-align: center;
+  a {
+    color: $linkColor;
+    img {
+      margin: 0 auto;
+      margin-top: 2em;
+      margin-bottom: 1em;
+      max-width: 200px;
+      box-shadow: 4px 4px 12px darkgrey;
+    }
+  }
+}
