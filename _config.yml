@@ -3,7 +3,6 @@ description: SITE_DESCRIPTION
 author:
   name: AUTHOR_NAME
   email: EMAIL@EXAMPLE.COM
-  twitter: TWITTER_ID
 copyright_year: YEAR
 sass:
   style: compressed
