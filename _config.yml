@@ -4,6 +4,8 @@ author:
   name: AUTHOR_NAME
   email: EMAIL@EXAMPLE.COM
 copyright_year: YEAR
+google_analytics: UA-000000000-0
+aladin_ttbkey: TTB_KEY_VALUE
 sass:
   style: compressed
 plugins:
