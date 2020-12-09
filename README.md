@@ -37,6 +37,12 @@ author:
   name: AUTHOR_NAME
   email: EMAIL@EXAMPLE.COM
 copyright_year: YEAR
+sass:
+  style: compressed
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-sitemap
 ```
 
 ### Main page
