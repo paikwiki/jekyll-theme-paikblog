@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  {% if site.google_analytics == "" %}
+  {% if site.google_analytics != "" %}
     {% include ga.html %}
     <script type="text/javascript" src="{{ '/assets/js/analytics.js' }}"></script>
   {% endif %}
