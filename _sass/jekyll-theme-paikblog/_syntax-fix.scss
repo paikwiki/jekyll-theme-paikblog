@@ -8,8 +8,12 @@ code.highlighter-rouge {
 .highlighter-rouge {
   pre.highlight {
     padding: 2rem;
-    word-break: break-all;
-    overflow: auto;
+    overflow-x: auto;
+    code {
+      word-break: keep-all;
+      overflow: auto;
+      white-space: pre;
+    }
   }
   @media all and (max-width: 720px){
     pre.highlight {
