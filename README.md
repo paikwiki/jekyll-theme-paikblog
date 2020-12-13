@@ -72,6 +72,19 @@ permalink: /tags
 {% include tags.html %}
 ```
 
+### MathJax
+
+Set `site.mathjax` to `enable` in `_config.yml`.
+
+```yml
+# _config.yml
+...
+mathjax: enable #enable/disable
+...
+```
+
+NOTICE: [MathJax](https://www.mathjax.org/) is written by The MathJax Consortium. MathJax is license under Apache License, Version 2.0.
+
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at [paikwiki](mailto:paikwiki@gmail.com). This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
