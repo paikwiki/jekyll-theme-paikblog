@@ -20,7 +20,7 @@
   color: $metaColor;
 }
 
-/* - Aladin TTB */
+/* Aladin TTB */
 .ttb-review {
   margin-bottom: 2rem;
   text-align: center;
@@ -34,4 +34,12 @@
       box-shadow: 4px 4px 12px darkgrey;
     }
   }
+}
+
+/* MathJax */
+.MathJax {
+  overflow-x: auto;
+  break-after: avoid;
+  position: relative;
+  padding: 0.4em 0;
 }
