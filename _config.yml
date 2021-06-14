@@ -6,7 +6,7 @@ author:
 copyright_year: YEAR
 google_analytics: UA-000000000-0
 aladin_ttbkey: TTB_KEY_VALUE
-mathjax: enable #enable/disable
+mathjax: enable
 sass:
   style: compressed
 remote_theme: paikwiki/jekyll-theme-paikblog@main
