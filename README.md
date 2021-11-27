@@ -7,13 +7,15 @@ Jekyll theme for [paikwiki.github.io](https://paikwiki.github.io).
 Add this line to your Jekyll site's `Gemfile`:
 
 ```ruby
+gem "webrick"
+gem "jekyll-remote-theme"
 gem "jekyll-theme-paikblog"
 ```
 
 And add this line to your Jekyll site's `_config.yml`:
 
 ```yaml
-theme: jekyll-theme-paikblog
+remote_theme: paikwiki/jekyll-theme-paikblog
 ```
 
 And then execute:
@@ -39,7 +41,7 @@ author:
 copyright_year: YEAR
 sass:
   style: compressed
-remote_theme: paikwiki/jekyll-theme-paikblog@main
+remote_theme: paikwiki/jekyll-theme-paikblog
 plugins:
   - jekyll-seo-tag
   - jekyll-feed
@@ -79,23 +81,23 @@ permalink: /tags
 To install Gems, execute `bundle` at root directory.
 
 ```sh
-$ bundle install
+$ bundle
 Using public_suffix 4.0.6
-Using addressable 2.7.0
-Using bundler 2.1.4
+Using addressable 2.8.0
+Using bundler 2.2.32
 Using colorator 1.1.0
 Using concurrent-ruby 1.1.9
 Using eventmachine 1.2.7
-Using http_parser.rb 0.6.0
-Using em-websocket 0.5.2
-Using ffi 1.15.1
+Using http_parser.rb 0.8.0
+Using em-websocket 0.5.3
+Using ffi 1.15.4
 Using forwardable-extended 2.6.0
-Using i18n 1.8.10
+Using i18n 1.8.11
 Using sassc 2.4.0
 Using jekyll-sass-converter 2.1.0
 Using rb-fsevent 0.11.0
 Using rb-inotify 0.10.1
-Using listen 3.5.1
+Using listen 3.7.0
 Using jekyll-watch 2.2.1
 Using rexml 3.2.5
 Using kramdown 2.3.1
@@ -103,17 +105,19 @@ Using kramdown-parser-gfm 1.1.0
 Using liquid 4.0.3
 Using mercenary 0.4.0
 Using pathutil 0.16.2
-Using rouge 3.26.0
+Using rouge 3.26.1
 Using safe_yaml 1.0.5
-Using unicode-display_width 1.7.0
+Using unicode-display_width 1.8.0
 Using terminal-table 2.0.0
-Using jekyll 4.2.0
+Using jekyll 4.2.1
 Using jekyll-feed 0.15.1
-Using rubyzip 2.3.0
+Using rubyzip 2.3.2
 Using jekyll-remote-theme 0.4.3
 Using jekyll-seo-tag 2.7.1
 Using jekyll-sitemap 1.4.0
-Bundle complete! 4 Gemfile dependencies, 33 gems now installed.
+Using jekyll-theme-paikblog 0.1.3
+Using webrick 1.7.0
+Bundle complete! 8 Gemfile dependencies, 35 gems now installed.
 Use `bundle info [gemname]` to see where a bundled gem is installed.
 ```
 
@@ -122,13 +126,14 @@ Use `bundle info [gemname]` to see where a bundled gem is installed.
 ```sh
 $ jekyll serve
 Configuration file: {PAIKBLOG-PATH}/_config.yml
+      Remote Theme: Using theme paikwiki/jekyll-theme-paikblog
             Source: {PAIKBLOG-PATH}
        Destination: {PAIKBLOG-PATH}/_site
  Incremental build: disabled. Enable with --incremental
       Generating...
       Remote Theme: Using theme paikwiki/jekyll-theme-paikblog
        Jekyll Feed: Generating feed for posts
-                    done in 0.371 seconds.
+                    done in 0.2 seconds.
  Auto-regeneration: enabled for '{PAIKBLOG-PATH}'
     Server address: http://127.0.0.1:4000
   Server running... press ctrl-c to stop.
